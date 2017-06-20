@@ -180,6 +180,7 @@ header nav ul.mobile {
   background: white;
   font-weight: bold;
   justify-content: center;
+  padding: 32px;
 }
 
 .information-flex h1 {
@@ -191,19 +192,23 @@ header nav ul.mobile {
 
 .information-image {
   display: flex;
-  width: 60px;
+  width: 100%;
   margin-left: 24px;
   align-items: flex-end;
 }
 
 div .information {
   flex-direction: column;
+  width: 100%;
 }
 
 .information-image {
   display: flex;
   margin-left: 24px;
+}
 
+.information-image img {
+  width: 100%;
 }
 
 .text {
@@ -239,6 +244,9 @@ div .information {
   width: 60%;
 }
 
+.content {
+  padding-left: 24px;
+}
 
 @media only screen and (max-width: 770px) {
 
