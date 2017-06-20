@@ -276,6 +276,7 @@ div .information {
     height: 100%;
   }
 }
+
 /* Majors */
 
 #learning{
@@ -286,6 +287,9 @@ div .information {
 
 #learning span {
   text-align: center;
+  font-size: 2.5rem;
+  line-height: 1.25;
+  font-weight: bold;
 }
 #learning .majors-container {
   display: flex;
@@ -308,6 +312,19 @@ div .information {
 
 .majors-text {
   width: 100%;
+  padding: 0 16px;
+  padding-top: 16px;
+  padding-bottom: 24px;
+  line-height: 1.25;
+}
+
+.majors-text h1 {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.majors-text h2 {
+  padding: 8px 0;
 }
 
 @media only screen and (max-width: 770px) {
@@ -344,6 +361,8 @@ div .information {
   }
 }
 
+/* Thesis*/
+
 .exhibit {
   text-align: center;
   padding: 32px 0;
@@ -379,6 +398,23 @@ video {
   line-height: 1.25;
   font-weight: bold;
   padding-bottom: 2rem;
+}
+
+.featured-flex {
+  display: flex;
+  flex-direction: column;
+  padding: 0 16px;
+}
+
+.featured-text {
+  padding: 16px;
+}
+
+.featured-text h1 {
+  font-size: 2.0rem;
+  line-height: 1.25;
+  font-weight: bold;
+  padding-bottom: 16px;
 }
 
 @media only screen and (max-width: 770px) {
